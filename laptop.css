@@ -98,4 +98,17 @@
     .preview{
         flex-wrap: wrap;
     }
+
+    .client-body{
+        flex-wrap: wrap;
+        
+    }
+    .body-card p{
+        text-align: justify;
+    }
+    .conatct-body{
+        display: flex;
+        flex-direction: column;
+    }
+
 }
