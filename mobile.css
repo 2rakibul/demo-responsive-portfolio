@@ -29,17 +29,24 @@
     .achivement-card{
         margin-top: 100px;
         padding: 0px 0px;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;   
-        gap: 30px;
-    
+
     }
+    .overview-btn {
+        gap: 20px;
+        flex-wrap: wrap;
+        
+    }
+
+
+
 }
 
 @media only screen and (max-width: 600px){
-   
+    a{
+
+        font-size: 16px;
+
+    }
     nav{
         flex-direction: column;
         flex-wrap: wrap;
@@ -64,31 +71,114 @@
         }
     .header .left h6{
         color: #222;
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 600;
         
     }
-    .header h3{
+    .header .left h3{
         color: #222;
         font-size: 30px;
         font-weight: 700;
     }
-    .header h3 span{
-        color: #07F;
+    .header .left h3 span{
         font-size: 30px;
-        font-weight: 700;
     }
-    .header p{
-        color: #222;
+    .header .left p{
+        font-size: 16px;
+    }
+    .experience .right-details h6{
+        font-size: 16px; 
+    }
+    .experience .right-details h3{
+      font-size: 30px;
+    }
+    
+    .experience .right-details p{
+        font-size: 16px;
+    }
+    .service-section{
+        margin:  0;
+        margin-bottom: 100px;
+    }
+    .service-header h6{
+        font-size: 14px;
+    }
+    .service-header h3{
+        font-size: 30px;
+        
+    }
+    .service-header h3 span{
+
+    }
+    
+    .service-header p{
+        font-size: 18px;
+   
+    }
+
+
+
+
+    .card-blue h3{
         font-size: 20px;
-        font-weight: 400; 
     }
-    .right img{
-        width: 350px;
-    height: 354.43px;
+    .card-blue p{
+        font-size: 16px;
     }
     .card-blue a{
-        text-align: center;
-    
+        font-size: 16px;;
     }
+    .card-hidden h3{
+        font-size: 30px;
+    }
+    .card-hidden p{
+        font-size: 16px;
+    }
+    .card-hidden a{
+        font-size: 16px;;
+}
+
+.achivement-header h6{
+    font-size: 16px;
+}
+.achivement-header h3{
+
+    font-size: 30px;
+}
+.card-white h2{
+    font-size: 40px;
+}
+.card-white p{
+    font-size: 16px;
+
+}
+.achivement{
+    margin: 0 0px;
+    margin-bottom: 50px;
+}
+.achivement-card{
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.projects{
+    padding: 50px 0px;
+    
+}
+
+.project-header h6{
+    font-size: 16px;
+
+}
+
+.project-header h3{
+    font-size: 30px;
+}
+
+
+
+
+
+
+
 }
